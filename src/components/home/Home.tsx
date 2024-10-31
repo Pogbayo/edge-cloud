@@ -21,11 +21,7 @@ export const Home = () => {
       </div>
       <div className={styles.header2}>
         <div className={styles.logo}>
-          <img
-            src="/public/logos/thetaLogo.svg"
-            className={styles.eth}
-            alt=""
-          />
+          <img src="/logos/thetaLogo.svg" className={styles.eth} alt="" />
         </div>
         <div className={styles.navLinks}>
           <ul className={styles.ulTag}>
@@ -50,11 +46,7 @@ export const Home = () => {
         <h1 className={styles.header}>
           The Decentralized Cloud for AI, Media & Entertainment
         </h1>
-        <img
-          src="/public/images/thetaImg.png"
-          alt=""
-          className={styles.thetaImg}
-        />
+        <img src="/images/thetaImg.png" alt="" className={styles.thetaImg} />
         <p>
           <a href="" className={styles.visit}>
             Visit Dashboard for AI Developers {"->"}
@@ -69,7 +61,7 @@ export const Home = () => {
           <h3>
             Share your GPU for AI & Video workloads to earn
             <img
-              src="/public/images/bitcoin.png"
+              src="/images/bitcoin.png"
               alt=""
               className={styles.bitcoin}
             />{" "}
@@ -78,11 +70,7 @@ export const Home = () => {
           <p>Download Theta Edge Node</p>
           <div className={styles.buttons}>
             <div>
-              <img
-                src="/public/images/windows.png"
-                className={styles.window}
-                alt=""
-              />{" "}
+              <img src="/images/windows.png" className={styles.window} alt="" />{" "}
               <small>Windows</small>
             </div>
             <div>

@@ -218,7 +218,7 @@ export const Detail:DetailsType[] = [
     text:"We believe that Web3 and blockchain technologies will bring unprecedented opportunities to our family of storytellers, trendsetters and icons in the entertainment industry. We’ve been impressed with Theta’s achievements since our seed investment in 2016 and look forward to supporting the project in the years ahead.",
     desc:"Michael Yanover, Head of Business Development",
     img:{
-      source: '/public/images/CAA.jpg',
+      source:'/images/CAA.jpg',
       width: 50,
       height: 50,
     }
@@ -227,7 +227,7 @@ export const Detail:DetailsType[] = [
     text:"“We’re impressed by Theta’s achievements in blockchain video & data delivery. We look forward to participating as an enterprise validator, and to providing Google Cloud infrastructure in support of Theta’s long-term mission & future growth.",
     desc:"— Allen Day, Google Cloud Developer advocate",
     img:{
-      source: '/public/images/7123960_logo_google_icon.png',
+      source: '/images/7123960_logo_google_icon.png',
       width: 50,
       height: 50,
     }
@@ -236,7 +236,7 @@ export const Detail:DetailsType[] = [
     text:"“At R&D Center we share Theta Network’s passion towards decentralized technologies, and are excited about the possibilities which Blockchain technologies can offer to creators and can provide effective tools for license and rights management.",
     desc:"-- Magdalena Wasowska, Head of Sony Europe R&D Center Europe Brussels Laboratory",
     img:{
-      source: '/public/images/sony2.jpg',
+      source: '/images/sony2.jpg',
       width: 50,
       height: 50,
     }
@@ -245,7 +245,7 @@ export const Detail:DetailsType[] = [
     text:"“At American Idol, we are constantly challenging ourselves to be on the forefront of innovation,” says Megan Michaels Wolflick, the series’ Showrunner, and Executive Producer. “With interactive NFT trading cards celebrating our 20th season, fans will be able to immerse themselves even more into the Idol experience, as they collect their favorite contestants’ cards, and follow their progress throughout the competition.”",
     desc:"",
     img:{
-      source: '/public/images/american-idol-logo-black-and-white.png',
+      source: '/images/american-idol-logo-black-and-white.png',
       width: 50,
       height: 50,
     }

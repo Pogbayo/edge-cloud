@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.div1}>
-        <img src="/public/logos/thetaLogo.svg" alt="" />
+        <img src="/logos/thetaLogo.svg" alt="" />
         <div className={styles.headerIcons}>
           <FaMedium className={styles.icon} />
           <FaTwitter className={styles.icon} />
