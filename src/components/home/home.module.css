@@ -1,0 +1,252 @@
+.MainCon {
+    width: 90%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('/public/images/destination/background-destination-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .header1 {
+    height: 40px;
+    background-color: rgb(121, 245, 148);
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin: 0; /* Ensures no margin on the header itself */
+    padding: 0; /* Removes any padding that might create space */
+}
+.linkText{
+    color: black;
+    font-weight: 700;
+}
+.header1 p {
+    margin: 0; /* Removes the default margin from the <p> tag */
+    line-height: 40px; /* Centers the text vertically within the 40px height */
+}
+.thinText{
+    font-weight: 400;
+}
+.header2 {
+    display: flex;
+    background-color:black;
+    gap: 7px;
+    padding: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.eth{
+    width: 100px;
+    height: 30px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    display: flex;
+    font-weight: 700;
+    padding: 3px;
+    /* flex: 0 0 10%;  */
+
+}
+.navLinks {
+    flex: 0 0 70%; 
+}
+
+.ulTag{
+    display: flex;
+}
+
+.ulTag {
+    display: flex;
+    list-style-type: none; 
+    gap: 10px;
+}
+
+.ulTag > li {
+    text-decoration: none;
+    font-weight: 700;
+}
+.ulTag > li:hover{
+    color: rgb(121, 245, 148);
+    cursor: pointer;
+}
+.headerIcons{
+    display: flex;
+    align-items: center;
+    flex: 0 0 17%; 
+    justify-content: space-around;
+    
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /* width: 80%; */
+    height: auto;
+}
+.header{
+    font-size: 67px;
+    text-align: center;
+    padding: 20px;
+}
+.thetaImg{
+    width: 230px;
+    height: 200px;
+}
+.visit{
+    color: rgb(121, 245, 148);
+    text-decoration: none;
+}
+.mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+.mobile :first-child{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.mobile :nth-child(2) {
+    color: rgb(121, 245, 148);
+    text-decoration: none;
+}
+.node{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bitcoin{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+.nodeOperator{
+   color: rgb(88, 87, 87);
+}
+.node>p{
+    font-weight: 700;
+    color: rgb(88, 87, 87);
+} 
+.buttons{
+    display: flex;
+    width: auto;
+    align-items: center;
+    gap: 20px;
+}
+.buttons>div{
+    border: 1px solid rgb(88, 87, 87);
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    gap: 7px;
+}
+.window{
+    width: 13px;
+    height: 20px;
+}
+.article > h2 {
+    color: rgb(88, 87, 87);
+    text-align: center; 
+    padding: 10px; 
+}
+
+@media (max-width: 759px) {
+    .MainCon {
+      width: 100%; 
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .header1{
+        display: flex;
+        justify-content: center;
+        /* width: auto;
+        
+        height: 68px;
+        padding: 5px; */
+    }
+    .headerIcons{
+        display: none;
+    }
+    .navLinks{
+        display: none;
+    }
+   .header2{
+       display: fleex;
+       justify-content: center;
+       align-items: center;
+   }
+   .thetaImg{
+    width: 100px;
+    height: 100px;
+   }
+   .header{
+    font-size: 30px;
+    width: 70%;
+    text-align: center;
+   }
+   .buttons{
+    display: flex;
+    flex-direction: column;
+   }
+   .buttons>div{
+    width: 120px;
+    height: auto;
+    padding: 6px;
+   }
+   .node>h3{
+    padding: 10px;
+    text-align: center;
+   }
+  }
+  @media (min-width: 760px) {
+    .MainCon {
+        width: 100%; 
+        margin: 0;
+        overflow: hidden;
+      }
+      .header1{
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        font-size: 65px;
+        width: 80%;
+        height: 300px;
+        text-align: center;
+       }
+  }
+    @media (min-width: 890px) {
+    .MainCon {
+        width: 100%; 
+        margin: 0;
+        overflow: hidden;
+        margin: 0 auto;
+      }
+     .thetaImg{
+        margin-top: 20px;
+     }
+    .header{
+        font-size: 62px;
+        width: 80%;
+        height: 200px;
+        text-align: center;
+       }
+  }

@@ -1,0 +1,218 @@
+.container{
+  height: auto;
+  width: 90%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+.active {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .active>p{
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .indicator {
+    display: inline-block;
+    width: 8px;  /* Smaller size */
+    height: 8px; /* Smaller size */
+    border-radius: 50%; /* Make it circular */
+    margin-left: 5px;
+    vertical-align: middle; /* Align with text */
+    animation: zoom 1s infinite alternate; /* Animation effect */
+  }
+  
+  .yellowIndicator {
+    background-color: rgb(200, 200, 112); /* Color for Active Edge Node */
+  }
+  
+  .blueIndicator {
+    background-color: lightblue; /* Color for Guardian Node */
+  }
+  
+  .redIndicator {
+    background-color: red; /* Color for Validator Node */
+  }
+  
+  /* Keyframes for zoom effect */
+  @keyframes zoom {
+    0% {
+      transform: scale(1); /* Initial scale */
+    }
+    100% {
+      transform: scale(1.5); /* Zoom in scale */
+    }
+  }
+  .community{
+    color:  rgb(117, 209, 137);
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  /* h4{
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+ p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+ } */
+  .recentNews{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    text-align: center;
+    gap: 3px;
+    margin-top: 90px;
+  }
+  .recentNews>h4{
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(153, 145, 145);
+  }
+  .link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    text-decoration: none;
+  }
+  .recentNews>p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    color: rgb(121, 245, 148);
+  }
+  .itemdatas{
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    gap: 25px; /* Space between items */
+    margin-top: 20px;
+    width: 100%;
+
+  }
+  .itemData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    flex: 1 1 1calc(33.333% - 20px); /* Three items per row, accounting for gap */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+    padding: 15px; /* Optional: Padding inside item data */
+    border-radius: 5px; /* Optional: Rounded corners */
+    }
+  .itemData>h5{
+    font-size: 15px;
+  }
+  .itemData>small{
+    color: gray;
+  }
+  .itemData>a{
+    color: rgb(121, 245, 148);
+  }
+  .yo{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    color: rgb(51, 240, 92);
+  }
+
+  .detail{
+    margin-top: 100px;
+    height: auto;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .spans{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0 auto;
+    
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+  .spans > span{
+    width: 40px;
+    height: 5px;
+    background-color: gray;
+  }
+  .spans > span:hover{
+    background-color:rgb(51, 240, 92) ;
+    cursor: pointer;
+  }
+
+  .article>h3{
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(250, 233, 249, 0.853);
+    font-weight: 100;
+    font-size: 1.6rem;
+  }
+ .view{
+  color: rgb(121, 245, 148);
+  }
+  @media (max-width: 900px) {
+    .container{
+      width: 100%; 
+      margin: 0;
+    }
+    .itemdatas{
+      margin: 0 auto;
+    }
+    .itemData {
+        flex: 1 1 50%; /* One item per row */
+      }
+      .itemData>h2{
+        text-align: center;
+        width: 70%;
+      }
+  }
+   @media (min-width:901px) {
+    .container{
+      width: 95%; 
+      margin: 0 auto;
+    }
+    .itemdatas{
+      padding: 10px;
+      width: 90%;
+      margin: 0 auto;
+    }
+    .itemData {
+      flex: 1 1 33%; 
+      gap: 10px;
+    }
+  } 
+  @media (min-width:1200px) {
+    .container{
+      width: 100%; 
+      margin: 0 auto;
+    }
+    .itemdatas{
+      padding: 10px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .itemData {
+      flex: 1 1 28%; 
+      gap: 10px;
+    }
+  }
