@@ -43,7 +43,105 @@
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
-
+/* From Uiverse.io by gharsh11032000 */ 
+.divBtn{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.animatedButton {
+    position: relative;
+    border: 1px solid gray;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    gap:24px;
+    padding: 16px 36px;
+    /* width: auto;
+    padding: 20px; */
+    /* border: 4px solid; */
+    /* border-color: transparent; */
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 100px;
+    font-weight: 600;
+    color:gray;
+    /* box-shadow: 0 0 0 2px rgb(121, 245, 148); */
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animatedButton svg {
+    position: absolute;
+    width: 24px;
+    fill: gray;
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animatedButton .arr1 {
+    right: 16px;
+  }
+  
+  .animatedButton .arr2 {
+    left: -25%;
+  }
+  
+  .animatedButton .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animatedButton .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animatedButton:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: rgb(209, 188, 188);
+    border-radius: 12px;
+  }
+  
+  .animatedButton:hover .arr1 {
+    right: -25%;
+  }
+  
+  .animatedButton:hover .arr2 {
+    left: 16px;
+  }
+  
+  .animatedButton:hover .text {
+    transform: translateX(12px);
+  }
+  
+  .animatedButton:hover svg {
+    fill: #212121;
+  }
+  
+  .animatedButton:active {
+    scale: 0.95;
+    box-shadow: (0 0 0 4px gray);
+  }
+  
+  .animatedButton:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  
 .eth{
     width: 100px;
     height: 30px;
@@ -169,6 +267,50 @@
 }
 
 @media (max-width: 759px) {
+    .divBtn{
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .animatedButton {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        gap:24px;
+        padding: 16px 36px;
+        /* width: auto;
+        padding: 20px; */
+        border: 1px solid gray;
+        /* border-color: transparent; */
+        font-size: 14px;
+        background-color: inherit;
+        border-radius: 100px;
+        font-weight: 600;
+        color:rgb(222, 211, 211);
+        /* box-shadow: 0 0 0 2px rgb(214, 224, 216); */
+        /* border: 1px solid gray; */
+        cursor: pointer;
+        overflow: hidden;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .animatedButton svg {
+        position: absolute;
+        width: 20px;
+        fill: gray;
+        z-index: 9;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .animatedButton:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: rgb(209, 188, 188);
+    border-radius: 12px;
+  }
+  .animatedButton:hover svg {
+    fill: white;
+  }
+  
     .MainCon {
       width: 100%; 
       overflow: hidden;
@@ -217,6 +359,49 @@
    }
   }
   @media (min-width: 760px) {
+    .divBtn{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .animatedButton {
+        position: relative;
+        display: flex;
+        align-items: center;
+        /* margin: 0 auto; */
+        gap:24px;
+        padding: 16px 36px;
+        /* width: auto;
+        padding: 20px; */
+        border: 1px solid gray;
+        /* border-color: transparent; */
+        font-size: 14px;
+        background-color: inherit;
+        border-radius: 100px;
+        font-weight: 600;
+        color:rgb(222, 211, 211);
+        /* box-shadow: 0 0 0 2px rgb(214, 224, 216); */
+        /* border: 1px solid gray; */
+        cursor: pointer;
+        overflow: hidden;
+        transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .animatedButton svg {
+        position: absolute;
+        width: 20px;
+        fill: gray;
+        z-index: 9;
+        transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .animatedButton:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: rgb(209, 188, 188);
+    border-radius: 12px;
+  }
+  .animatedButton:hover svg {
+    fill: white;
+  }
     .MainCon {
         width: 100%; 
         margin: 0;
@@ -234,6 +419,50 @@
        }
   }
     @media (min-width: 890px) {
+        .divBtn{
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .animatedButton {
+            position: relative;
+            display: flex;
+            align-items: center;
+            /* margin: 0 auto; */
+            margin-right: 40px;
+            gap:24px;
+            padding: 16px 36px;
+            /* width: auto;
+            padding: 20px; */
+            border: 1px solid rgb(231, 228, 228);
+            /* border-color: transparent; */
+            font-size: 14px;
+            background-color: inherit;
+            border-radius: 100px;
+            font-weight: 600;
+            color:rgb(222, 211, 211);
+            /* box-shadow: 0 0 0 2px rgb(214, 224, 216); */
+            /* border: 1px solid gray; */
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+          }
+          .animatedButton svg {
+            position: absolute;
+            width: 20px;
+            fill: gray;
+            z-index: 9;
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+      .animatedButton:hover {
+            box-shadow: 0 0 0 12px transparent;
+            color: rgb(209, 188, 188);
+            border-radius: 12px;
+      }
+      .animatedButton:hover svg {
+            fill: white;
+      }
     .MainCon {
         width: 100%; 
         margin: 0;

@@ -4,6 +4,7 @@
   padding-bottom: 20px;
   margin: 0 auto;
   max-width: 1400px;
+  background-color: rgba(23, 19, 19, 0.669);
 }
 .active {
     display: flex;
@@ -185,6 +186,11 @@
         text-align: center;
         width: 70%;
       }
+      .spans{
+        width: 50%;
+      }
+      span:active{
+      background-color: greenyellow;      }   
   }
    @media (min-width:901px) {
     .container{
