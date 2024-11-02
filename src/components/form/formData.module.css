@@ -10,7 +10,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
+  }
+ 
+  .recText{
+    background-color: white;
+    color: black;
   }
   .proceed{
     font-size: 30px;
@@ -65,6 +69,8 @@
   
   select {
     width: 100%; /* Makes the select tag span the form width */
+      background-color: white;
+    color: black;
     padding: 8px; /* Adds padding inside the select tag */
   }
   
@@ -91,6 +97,11 @@
     margin-bottom: 10px; /* Adds space below the label */
     display: block; /* Ensure it behaves like a block-level element */
   }
+  .keyTextArea{
+    background-color: white;
+    color: black;
+
+  }
   .keystoreLabel{
     margin-top: 10px;
     color: var(--bg);
@@ -103,7 +114,10 @@
     width: 99%;
     padding-left: 10px;
     padding-top: 5px;
-    color: whitesmoke;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+
   }
   .several{
     margin-top: 15px;
@@ -125,20 +139,26 @@
     margin-bottom: 10px;
     display: block;
   }
+  .privText{
+    background-color: white;
+    color: black;
+  }
   .button{
     margin-top: 10px;
     min-height: 40px;
     width: 150px;
     display: block;
     background-color: var(--bg);
-    color: black;
+    color: white;
     font-size: 13px;
     font-weight: 700;
     border-radius: 10px;
+    background-color: #333;
   }
   .button:hover{
-    background-color: #333;
-    color: #f3f3f3;
+    background-color: #f3f3f3;
+    border: 1px solid gray;
+    color: black;
   }
   .loadingContainer{
     border: 2px solid white;
