@@ -319,10 +319,13 @@
     .header1{
         display: flex;
         justify-content: center;
-        /* width: auto;
         
+        /* width: auto;
         height: 68px;
         padding: 5px; */
+    }
+    .linkText{
+      font-size: 13px;
     }
     .headerIcons{
         display: none;
