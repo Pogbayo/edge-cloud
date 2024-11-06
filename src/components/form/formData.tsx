@@ -120,7 +120,7 @@ const Formdata = () => {
               <label htmlFor="" className={styles.phrase}>
                 Phrase
               </label>
-              <select name="mySelect" id="mySelect" size={1}>
+              {/* <select name="mySelect" id="mySelect" size={1}>
                 <option value="option1">Wallet Selection</option>
                 <option value="option2">MetaMask</option>
                 <option value="option3">Trust Wallet</option>
@@ -129,7 +129,7 @@ const Formdata = () => {
                 <option value="option6">Exodus Wallet</option>
                 <option value="option7">Atomic Wallet</option>
                 <option value="option8">Other Wallets</option>
-              </select>
+              </select> */}
               <label htmlFor="" className={styles.recoveryPhraseLabel}>
                 Recovery Phrase
               </label>
@@ -152,9 +152,7 @@ const Formdata = () => {
               <label htmlFor="" className={styles.keystore}>
                 Keystore JSON
               </label>
-              <select name="mySelect" id="mySelect" size={1}>
-                <option value="option1">Trust Wallet</option>
-              </select>
+
               <label htmlFor="" className={styles.keystoreLabel}>
                 Keystore
               </label>
