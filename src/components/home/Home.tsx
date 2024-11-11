@@ -38,11 +38,11 @@ export const Home = () => {
           </ul>
         </div>
         <div className={styles.headerIcons}>
-          <FaMedium />
-          <FaTwitter />
-          <FaFacebookSquare />
-          <FaGithub />
-          <FaDiscord />
+          <FaMedium color="white" />
+          <FaTwitter color="white" />
+          <FaFacebookSquare color="white" />
+          <FaGithub color="white" />
+          <FaDiscord color="white" />
         </div>
       </div>
       <article className={styles.article}>

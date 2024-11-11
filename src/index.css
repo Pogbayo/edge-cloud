@@ -10,10 +10,12 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   line-height: 1.5;
+  background-color: black;
   font-family: Gilroy, -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
 }
 .app{
   height: auto;
+  color: white;
 }
 
 
